@@ -8,7 +8,7 @@ license-file = "LICENSE.txt"
 repository = "https://github.com/maps4print/azul-dependencies"
 
 [dependencies]
-glium                   = { version = "0.22.0",                                         default-features = false, features = ["glutin"] }
+glium                   = { version = "0.25.0",                                         default-features = false, features = ["glutin"] }
 euclid                  = { version = "0.19.4", path = "./euclid-0.19.4",               default-features = false }
 rusttype                = { version = "0.7.3",  path = "./rusttype-0.7.3",              default-features = false }
 app_units               = { version = "0.7.1",  path = "./app_units-0.7.1",             default-features = false }
